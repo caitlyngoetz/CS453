@@ -1,0 +1,9 @@
+Name: Caitlyn Goetz
+
+Grade: 30/30
+
+-Build process: good
+-Passing grader tests: 15/15
+-Code quality and unit tests: 10/10
+  List code is good, but you didn't complete UnitTestList.c. Will check again in p1
+-README.md: 5/5

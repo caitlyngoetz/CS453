@@ -1,0 +1,32 @@
+Name: CaitlynGoetz@u.boisestate.edu
+
+
+Grade: 18/20
+
+Proper project layout and makefiles: ok
+
+Features:
+
+1. Filename completion and history: ok
+2. Normal command execution: ok
+	-No error message if invalid command is given?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+my_dash>dfdfdfd
+my_dash>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+3. Handling empty commands: ok
+4. Handling EOF: ok
+5. Exit command: ok
+6. Change Directory command: ok
+	-parsing issues?
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+my_dash>cd sdsdsd
+sdsdsd : No file or directory found.
+my_dash>pwd
+pwd: ignoring non-option arguments
+/home/amit
+my_dash>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+7. Show version: ok
+
+Comments:

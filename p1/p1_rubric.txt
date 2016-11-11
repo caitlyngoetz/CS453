@@ -1,0 +1,34 @@
+Testing: 
+	-Submission quality: 
+	-Build/Makefile:  
+	-Compiling:  
+	-Functional Requirements:
+		-filename completion and command history (5 points): 
+		-normal command execution (10 points): 
+		-handling empty commands (2 points):   
+		-handling EOF (2 points):  
+		-handling exit command (2 points): 
+		-change directory command (9 points):  
+		-prompt (5 points):  
+        -show version (5 points): 
+		-background jobs (5 points): 
+        -job list (10 points): 
+        -simple job control (10 points): 
+        -jobs command (5 points):  
+		-valgrind (10 points): 
+		-other issues: 
+
+Valgrind (10 points):
+
+Subversion/git source code control use (10 points):  
+
+Design & documentation (10 points):
+	-README file: 
+	-Code organization & style: 
+	-Test cases:  
+
+Comments:
+
+Late penalty:
+
+Grade:   /100

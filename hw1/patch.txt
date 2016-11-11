@@ -1,0 +1,13 @@
+--- fork.c	2016-09-16 15:44:42.336197675 -0600
++++ fork_95.c	2016-09-16 15:32:08.441410127 -0600
+@@ -319,8 +319,8 @@
+ 
+ 	set_max_threads(MAX_THREADS);
+ 
+-	init_task.signal->rlim[RLIMIT_NPROC].rlim_cur = max_threads/2;
+-	init_task.signal->rlim[RLIMIT_NPROC].rlim_max = max_threads/2;
++	init_task.signal->rlim[RLIMIT_NPROC].rlim_cur = 95*max_threads/100;
++	init_task.signal->rlim[RLIMIT_NPROC].rlim_max = 95*max_threads/100;
+ 	init_task.signal->rlim[RLIMIT_SIGPENDING] =
+ 		init_task.signal->rlim[RLIMIT_NPROC];
+ }
