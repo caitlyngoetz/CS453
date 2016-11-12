@@ -1,12 +1,8 @@
+all: pc
 
-CC=gcc
-INCLUDE=include/
-CFLAGS = -g   -Wall  -I$(INCLUDE)
-LIBS=-lpthread -Llib/ -lmylib
-DEBUG=
-
-pc: pc.o  Item.o Item.h
-	$(CC) $(CFLAGS) $(DEBUG) -o $@ pc.o Item.o  $(LIBS)
+pc:
+	cd src; make
 
 clean:
-	/bin/rm -f *.o pc
+	cd src; make clean
+	/bin/rm -f *.so *.a pc

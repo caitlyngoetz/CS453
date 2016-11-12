@@ -11,8 +11,8 @@
 #include <unistd.h>
 #include <pthread.h>
 #include "Item.h"
-#include <List.h>
-#include <Node.h>
+#include "thread-safe-list.h"
+#include "Node.h"
 
 #define TRUE 1
 #define FALSE 0
