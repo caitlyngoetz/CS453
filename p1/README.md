@@ -61,11 +61,11 @@ FEATURES AND USAGE:
 		$valgrind --leak-check=yes --suppressions=valgrind.supp dash
 	Thus allowing you to run valgrind without the memory leaks and errors.
 
-	To print out the job list, use the following command (UNTESTED AND UNPROVEN):
+	To print out the job list, use the following command:
 	
 		my_dash> jobs
 
-	To run a process in the background, use the following command (UNTESED AND UNPROVEN):
+	To run a process in the background, use the following command:
 
 		my_dash> <whatever valid command> &
 TESTING:

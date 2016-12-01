@@ -22,11 +22,11 @@ int main(int argc, char *argv[]) {
 	char *prompt = "my_dash> ";
 //	int status;
 	
-	if(argc ==1){
+	if(argc == 1){
 		char *env = getenv(DASH_PROMPT);
 		if(env){
 			int length = strlen(env);
-			prompt = (char *) malloc(sizeof(char) * length+2);
+			prompt = (char *) malloc(sizeof(char) * length + 2);
 			strcpy(prompt, env);	//protects the env string
 		}
 		runPrompt(prompt);
@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 			printf("Exitting the shell\n");
 			exit(0);
 		}else{
-			printf("Invalid argument: %s!", argv[1]);
+			printf("Invalid argument: %s!\n", argv[1]);
 		}
 	}
 }

@@ -20,6 +20,9 @@ void jobs(ListPtr list, int printIt);
 int runJob(ListPtr list, JobPtr job);
 int run(ListPtr list, JobPtr job);
 void addJob(ListPtr list, JobPtr job);
+void changeDirectory(char *path);
+
+struct passwd *pwd;
 
 int runPrompt(char *prompt){
 	char *line = NULL;
@@ -72,7 +75,7 @@ int runJob(ListPtr list, JobPtr job){
 	if(!strcmp(command, "exit")){
 		return 0;
 	}else if(!strcmp(command, "cd")){
-		chdir((job->flags)[1]);
+		changeDirectory((job->flags)[1]);
 	}else if(!strcmp(command, "jobs")){
 		jobs(list, 1);
 		return 1;
@@ -97,4 +100,15 @@ int run(ListPtr list, JobPtr job){
 		status = -2;
 	}
 	return status;
+}
+
+void changeDirectory(char *path){
+	if(path == NULL){
+		uid_t id = getuid();
+		struct passwd *pwd = getpwuid(id);
+		path = pwd->pw_dir;
+	}
+	if(chdir(path) < 0){
+		printf("Directory does not exist!\n");
+	}
 }
