@@ -1,0 +1,42 @@
+commit 9f5f94557d1d4dbe7c8a49f5decbb8f7fe9b3d78
+Author: Caitlyn Goetz <caitlyngoetz@u.boisestate.edu>
+Date:   Sun Dec 11 22:40:59 2016 -0700
+
+    added git.log and updated tests and readme
+
+commit 2bbffa9d049a9c7dec292d1f56998cd38c24e897
+Author: Caitlyn Goetz <caitlyngoetz@u.boisestate.edu>
+Date:   Sun Dec 11 22:17:28 2016 -0700
+
+    Got README.md back! YAY GIT
+
+commit 5dde334f992401821863f44a6061f9aa2ab3c702
+Author: Caitlyn Goetz <caitlyngoetz@u.boisestate.edu>
+Date:   Sun Dec 11 22:11:15 2016 -0700
+
+    added test and fixed issues in buddy.c
+
+commit c59ca1874eea82a6987167491e6bd306bcdd95ed
+Author: Caitlyn Goetz <caitlyngoetz@u.boisestate.edu>
+Date:   Sun Dec 11 20:31:49 2016 -0700
+
+    added README.md
+
+commit c44bebd8230c1a2b57036ec5b7b34ed71be1362a
+Merge: 8183b7a 474c2ba
+Author: Caitlyn Goetz <caitlyngoetz@u.boisestate.edu>
+Date:   Sun Dec 11 19:55:50 2016 -0700
+
+    Merge branch 'master' of nullptr.boisestate.edu:CaitlynGoetz@u.boisestate.edu
+
+commit 8183b7a4e17ff285bef585009e790cf3f0f5dc60
+Author: Caitlyn Goetz <caitlyngoetz@u.boisestate.edu>
+Date:   Sun Dec 11 19:55:27 2016 -0700
+
+    Initial push
+
+commit 474c2baf601d5fc38bad832930e9227e3299b352
+Author: amit <ajain@boisestate.edu>
+Date:   Tue Dec 6 19:58:33 2016 -0700
+
+    hw2 graded
