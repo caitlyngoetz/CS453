@@ -102,6 +102,5 @@ DISCUSSIONS:
 	sucking project is.  Just kidding, its not that bad but I wish it would have gone better.  Thank you, Amit, for all
 	the chances, help and time.
 
-	FIXED IT AT 12:04!!!!!! PLEASE CONSIDER THIS, I PUSH NOW!!!
 SOURCES USED:
 	StackOverflow!!  And friendly peer advice.
